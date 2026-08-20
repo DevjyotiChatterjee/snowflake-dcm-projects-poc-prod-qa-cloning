@@ -1,0 +1,5 @@
+DEFINE DATABASE {{db_prefix}}DB_2;
+
+DEFINE SCHEMA {{db_prefix}}DB_2.ANALYTICS;
+
+DEFINE SCHEMA {{db_prefix}}DB_2.PUBLIC;

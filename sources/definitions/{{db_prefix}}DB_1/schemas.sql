@@ -1,0 +1,7 @@
+DEFINE DATABASE {{db_prefix}}DB_1;
+
+DEFINE SCHEMA {{db_prefix}}DB_1.INGESTION;
+
+DEFINE SCHEMA {{db_prefix}}DB_1.PUBLIC;
+
+DEFINE SCHEMA {{db_prefix}}DB_1.TRANSFORM;
