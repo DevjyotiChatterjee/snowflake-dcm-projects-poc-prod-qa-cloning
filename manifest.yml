@@ -1,0 +1,13 @@
+manifest_version: 2
+type: DCM_PROJECT
+default_target: DCM_QA
+targets:
+  DCM_QA:
+    account_identifier: YISVHUM-ES95206
+    project_name: QA_ADMIN.PROJECTS.PIPELINE_PROJECT
+    project_owner: DCM_DEVELOPER
+    templating_config: QA
+templating:
+  configurations:
+    QA:
+      db_prefix: "QA_"
